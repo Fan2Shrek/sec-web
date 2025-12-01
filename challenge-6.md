@@ -19,3 +19,5 @@ Ainsi le token n'est plus blacklisté mais toujours valide
 Resources:
 
 - https://repository.root-me.org/Exploitation%20-%20Web/EN%20-%20Hacking%20JSON%20Web%20Token%20(JWT)%20-%20Rudra%20Pratap.pdf?_gl=1*iz8g0z*_ga*MTczOTUxMTk3MC4xNzYyMTg4MTcz*_ga_SRYSKX09J7*czE3NjQ1OTQ1MjMkbzMkZzEkdDE3NjQ1OTk2MDIkajYwJGwwJGgw
+
+![Solution](img/6-result.png "Title")
