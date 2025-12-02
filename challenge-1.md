@@ -12,14 +12,17 @@
 
    - L'application affiche des images de produits via un paramètre dans l'URL (par exemple `/image?filename=product.jpg`)
    - Le paramètre `filename` est utilisé pour charger des fichiers depuis le système de fichiers
+
 2. **Test initial de path traversal :**
 
    - Tentative d'utiliser des séquences `../` pour remonter dans l'arborescence : `../../../etc/passwd`
    - L'application rejette la requête car elle valide que le fichier se termine par une extension autorisée (`.jpg`, `.png`, etc.)
+
 3. **Découverte de la validation d'extension :**
 
    - L'application vérifie que le nom de fichier se termine par une extension valide
    - Les tentatives directes de path traversal sont bloquées par cette validation
+
 4. **Exploitation du null byte bypass :**
 
    - Utilisation d'un caractère null byte (`%00` ou `\0`) pour terminer la chaîne avant l'extension
@@ -27,6 +30,7 @@
    - Le payload final : `../../../etc/passwd%00.jpg` permet de :
      - Passer la validation d'extension (le fichier "se termine" par `.jpg`)
      - Accéder au fichier `/etc/passwd` (le null byte termine la chaîne avant `.jpg`)
+
 5. **Confirmation de la vulnérabilité :**
 
    - Le contenu de `/etc/passwd` est retourné, confirmant l'accès non autorisé au système de fichiers
@@ -47,7 +51,7 @@
 - `.jpg` : Extension ajoutée pour contourner la validation
 
 **Screenshot :**
-![Screenshot du challenge](https://file+.vscode-resource.vscode-cdn.net/Users/louissappey/Desktop/Capture%20d%E2%80%99e%CC%81cran%202025-12-01%20a%CC%80%2014.27.39.png?version%3D1764595884380)
+![Screenshot du challenge](img/password-file.png)
 
 ## Les recommandations pour sécuriser cette vulnérabilité
 
@@ -89,9 +93,11 @@
 - **PortSwigger Web Security Academy - File path traversal** : [https://portswigger.net/web-security/file-path-traversal]()
 
   - Documentation officielle de PortSwigger sur les vulnérabilités de path traversal
+
 - **CWE-23: Relative Path Traversal** : https://cwe.mitre.org/data/definitions/23.html
 
   - Classification CWE de cette vulnérabilité avec des exemples et des solutions
+
 - **OWASP Top 10 - A01:2021 Broken Access Control** : [https://owasp.org/Top10/A01_2021-Broken_Access_Control/]()
 
   - Les vulnérabilités de path traversal sont souvent liées à des problèmes de contrôle d'accès

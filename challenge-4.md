@@ -85,9 +85,9 @@
 
 **Screenshots :**
 
-![Screenshot Burp Suite](https://file+.vscode-resource.vscode-cdn.net/Users/louissappey/Desktop/Capture%20d%E2%80%99e%CC%81cran%202025-12-01%20a%CC%80%2016.00.15.png?version%3D1764601526637)
+![Screenshot Burp Suite](img/csrf-copy.png)
 
-![Screenshot Solution](https://file+.vscode-resource.vscode-cdn.net/Users/louissappey/Desktop/Capture%20d%E2%80%99e%CC%81cran%202025-12-01%20a%CC%80%2016.01.54.png?version%3D1764601525519)
+![Screenshot Solution](img/crsf-copy-solution.png)
 
 ## Les recommandations pour sécuriser cette vulnérabilité
 
