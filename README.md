@@ -6,19 +6,19 @@ https://www.root-me.org/fr/Challenges/Web-Serveur/PHP-Filters (done)
 [Challenge 2](./challenge-2.md)
 
 
-https://www.root-me.org/fr/Challenges/Web-Client/CSRF-contournement-de-jeton (en cours: C)
+https://www.root-me.org/fr/Challenges/Web-Client/CSRF-contournement-de-jeton (done)
 [Challenge 3](./challenge-3.md)
 
 
-https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-not-tied-to-user-session
-[Challenge 4](./challenge-4.md)  (done)
+https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-not-tied-to-user-session (done)
+[Challenge 4](./challenge-4.md)
 
 
-https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-depends-on-header-being-present
-[Challenge 5](./challenge-5.md) (done)
+https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-depends-on-header-being-present (done)
+[Challenge 5](./challenge-5.md)
 
 
-https://www.root-me.org/fr/Challenges/Web-Serveur/JWT-Jeton-revoque (en cours: P)
+https://www.root-me.org/fr/Challenges/Web-Serveur/JWT-Jeton-revoque (done)
 [Challenge 6](./challenge-6.md)
 
 
