@@ -1,12 +1,9 @@
 # CI - CD
 
-## Membre
-
-Charlie Masson
-
-Louis Sappey
-
-Pierre Ambroise
+## Membres
+- Charlie Masson
+- Louis Sappey
+- Pierre Ambroise
 
 ![CI-CD](./img/ci-cd-good.png)
 

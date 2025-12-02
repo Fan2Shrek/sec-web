@@ -47,3 +47,7 @@ On a donc le password
 ## Resources:
 - https://repository.root-me.org/Programmation/PHP/EN%20-%20Using%20and%20understanding%20PHP%20streams%20and%20filters.pdf?_gl=1*16dpits*_ga*MTczOTUxMTk3MC4xNzYyMTg4MTcz*_ga_SRYSKX09J7*czE3NjQ1OTQ1MjMkbzMkZzEkdDE3NjQ1OTYzMzYkajYwJGwwJGgw
 - https://www.php.net/manual/fr/function.stream-get-filters.php
+
+## Recommandation:
+
+Filtrer les parametre get
