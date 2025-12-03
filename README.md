@@ -28,7 +28,7 @@ https://www.root-me.org/fr/Challenges/Web-Serveur/SQL-injection-Error (done)
 https://www.root-me.org/fr/Challenges/Web-Serveur/Injection-de-commande-Contournement-de-filtre (done)
 [Challenge 8](./challenge-8.md)
 
-https://www.root-me.org/fr/Challenges/Web-Client/XSS-Stockee-2 (done)
+https://www.root-me.org/fr/Challenges/Web-Client/XSS-Stockee-2
 [Challenge 9](./challenge-9.md)
 
 https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-in-an-unknown-language-with-a-documented-exploit (done)
