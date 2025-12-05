@@ -1,4 +1,4 @@
-# Challenge 7: CSRF - contournement de jeton
+# Challenge 7: CSRF - SQLQ Injection
 
 ## Nom / URL
 
