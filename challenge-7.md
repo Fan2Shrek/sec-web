@@ -1,4 +1,4 @@
-# Challenge 7: CSRF - SQLQ Injection
+# Challenge 7: CSRF - SQL Injection
 
 ## Nom / URL
 
